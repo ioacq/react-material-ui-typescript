@@ -4,7 +4,6 @@
 import * as React from "react";
 import { Typography, CssBaseline, Container } from "@mui/material";
 import { Combobox } from "./Combobox";
-import { AppToolbar, Toolbar } from "./AppToolbar";
 import { ThemeProvider } from "./ThemeProvider";
 
 /**
@@ -17,9 +16,6 @@ export function App(): JSX.Element {
   return (
     <ThemeProvider>
       <CssBaseline />
-
-      <AppToolbar />
-      <Toolbar />
 
       <Container sx={{ my: 4 }}>
         <Typography sx={{ mb: 2 }} variant="body2">
